@@ -1,5 +1,5 @@
 import React from "react";
-import Menu from "./Menu";
+import Menu from "./menu";
 import SelectDish from "./SelectDish";
 import { DISHES } from "../shared/dishes";
 import { COMMENTS } from "../shared/comments";
@@ -8,8 +8,8 @@ import { LEADERS } from "../shared/leaders";
 import { useState } from "react";
 import Header from './Header'
 import Footer from "./Footer";
-import About from "./About";
-import Contact from "./Contact";
+import About from "./about";
+import Contact from "./contact";
 import { Routes, Route } from "react-router-dom";
 import Home from "./Home";
 import { connect } from "react-redux";
